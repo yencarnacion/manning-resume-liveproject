@@ -1,0 +1,10 @@
+https://liveproject.manning.com/module/110_1_2/decoding-data-science-job-postings-to-improve-your-resume/introduction/get-started
+
+conda env create -f environment.yml
+This creates an Anaconda environment called job-posting-nlp, which can be activated with conda activate job-posting-nlp
+
+---
+facebooks jobs page
+https://www.facebook.com/careers/jobs/
+---
+sudo docker run -d -p 8080:8080 -v /home/yencarnacion/facebook/manning:/home  continuumio/anaconda3 /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8080
